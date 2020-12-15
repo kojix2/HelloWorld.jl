@@ -1,0 +1,13 @@
+name = "HelloWorld"
+uuid = "150c58b0-4477-4990-bab0-bc6216eb224f"
+authors = ["kojix2 <2xijok@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
