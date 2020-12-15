@@ -2,5 +2,5 @@ using HelloWorld
 using Test
 
 @testset "HelloWorld.jl" begin
-    # Write your tests here.
+    @test "hello" == hello("hello")
 end
